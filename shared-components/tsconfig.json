@@ -1,0 +1,40 @@
+// {
+//   "files": [],
+//   "references": [
+//     { "path": "./tsconfig.app.json" },
+//     { "path": "./tsconfig.node.json" }
+//   ],
+//   "compilerOptions": {
+//     "baseUrl": ".",
+//     "paths": {
+//       "@/*": ["./src/*"]
+//     },
+
+//     "target": "esnext",
+//     "module": "esnext",
+//     "strict": true,
+//     "jsx": "react",
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "declaration": true,
+//     "outDir": "dist",
+//     "rootDir": "src",
+//     "composite": true,
+//   },
+//   "include": ["src/**/*.ts", "src/**/*.tsx"],
+// }
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "shared-components/*": ["../shared-components/src/*"]
+    }
+  }
+}
