@@ -3,3 +3,4 @@
 # minifrontend-sample
 # mini-frontend-sample
 # mini-frontend-sample
+# mini-frontends
