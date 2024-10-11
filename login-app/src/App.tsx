@@ -11,9 +11,8 @@ function App() {
     const searchParams = new URLSearchParams(window.location.search);
     const redirectAppParam = searchParams.get("redirectApp");
 
-    const token = getCookie("sale_token");
-    console.log(document.cookie);
-    console.log("Loggin Token: ", token);
+    const token = getCookie("token");
+    console.log(token);
     
     if (redirectAppParam) setRedirectApp(redirectAppParam);
   }, [])

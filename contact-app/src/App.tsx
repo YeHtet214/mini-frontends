@@ -23,7 +23,7 @@ function App() {
   useEffect(() => {
     (async () => {
       try {
-        const token = getCookie("contact_token");
+        const token = getCookie("token");
         if (!token) {
           window.location.href = "http://localhost:3000?redirectApp=ContactApp";
           return;
